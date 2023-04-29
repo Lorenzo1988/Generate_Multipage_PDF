@@ -11,5 +11,6 @@ for i, row in df.iterrows():
         topic = row["Topic"]
         pdf.set_font(family="Times", style="B", size=24)
         pdf.set_text_color(100,100,100)
-        pdf.cell(w=0, h=12, txt=f"Topic: {topic}", align="L", ln=1, border=1)
+        pdf.cell(w=0, h=12, txt=f"Topic: {topic}", align="L", ln=1, border=0)
+        pdf.line(10,22,200,22)
 pdf.output("output/output.pdf")
