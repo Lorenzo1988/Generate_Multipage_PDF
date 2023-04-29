@@ -1,4 +1,5 @@
 from fpdf import FPDF
+import pandas as pd
 
 pdf = FPDF(orientation="P",unit="mm", format= "A4")
 
