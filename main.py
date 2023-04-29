@@ -5,6 +5,10 @@ pdf = FPDF(orientation="P",unit="mm", format= "A4")
 
 #aggiungo pagina vuota
 pdf.add_page()
+### PANDAS INPUT
+
+df = pd.read_csv("input/info.txtv",sep=",",header=0)
+
 
 #aggiugno una font
 pdf.set_font(family="Times",style="B",size=12)
