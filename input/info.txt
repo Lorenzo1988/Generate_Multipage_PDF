@@ -1,2 +1,3 @@
 Nome, Cognome, Anno_Nascita, Ruolo_Lavorativo, Company
 Lorenzo, Chiappetta, 1988, Data Engineer,  TIM
+Paolino, Paperino, 1900, Cartone, Disney
