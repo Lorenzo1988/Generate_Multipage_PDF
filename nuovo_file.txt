@@ -1,4 +1,0 @@
-riga_1
-riga_2
-riga_3
-riga_4
